@@ -1,4 +1,3 @@
-setwd("C:/Users/olego/Desktop/New")
 soil <- read.table("LosadaSuelos.csv",header=T,sep=",")
 
 if (soil$pHCaCl2 < 4.5) { 
